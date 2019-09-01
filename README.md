@@ -6,7 +6,7 @@ Testing linux application performance
 
 
 ## Types of Servers
-1. Iterative Server - handles the client request and the work within the same call. It does not scale for high number of  client requests and also for long running transactions.
+1. Iterative Server - handles the client request and the work within the same call. It does not scale for high number of  client requests and also for long running transactions. <b>Deals with one client request at a time.</b>
 
 ![](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.hali001/khcl2002.gif)
 
