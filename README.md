@@ -4,6 +4,12 @@ Testing linux application performance
 ## Typical Client Server interaction diagram
 ![](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.hali001/lbhl0001.gif)
 
+## Socket system calls
+- ```socket()``` creates a new socket.
+- ```bind()``` binds a socket to an address
+- ```listen()``` - allows a stream socket to accept incoming connections from other sockets
+- ```accept()``` - accepts a connection froma peer application on a listening stream socket
+- ```connect()``` - establishes a connection with another socket
 
 ## Types of Servers
 1. Iterative Server - handles the client request and the work within the same call. It does not scale for high number of  client requests and also for long running transactions. <b>Deals with one client request at a time.</b>
