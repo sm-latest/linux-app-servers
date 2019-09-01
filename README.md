@@ -23,3 +23,4 @@ Testing linux application performance
 1. [Linux Application Performance](https://unixism.net/2019/04/linux-applications-performance-introduction/)
 2. [Lets build a web server](https://ruslanspivak.com/lsbaws-part1/)
 3. [Hackernews feedback](https://news.ycombinator.com/item?id=20081488#20088463)
+4. [The Linux Programming Interface](https://github.com/storypku/tlpi)
