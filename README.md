@@ -24,3 +24,4 @@ Testing linux application performance
 2. [Lets build a web server](https://ruslanspivak.com/lsbaws-part1/)
 3. [Hackernews feedback](https://news.ycombinator.com/item?id=20081488#20088463)
 4. [The Linux Programming Interface](https://github.com/storypku/tlpi)
+5. [Guide to linkers](http://www.lurklurk.org/linkers/linkers.html)
