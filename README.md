@@ -22,6 +22,9 @@ Testing linux application performance
 
 ![](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.hali001/khcl2002.gif)
 
+3.  Use Apapche http2-toolkit for http development. Use ab tool to benchmark your server
+``` ab -n 20 -c 100 http://localhost:8000```
+
 ### Resources
 1. [Linux Application Performance](https://unixism.net/2019/04/linux-applications-performance-introduction/)
 2. [Lets build a web server](https://ruslanspivak.com/lsbaws-part1/)
