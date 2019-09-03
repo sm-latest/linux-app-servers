@@ -36,3 +36,5 @@ Testing linux application performance
 8. [Learning Rust, implementing a web server](http://julien.gunnm.org/rust/2017/11/18/learning-rust-in-practice-webserver-in-rust/)
 9. [Learn Go with tests - http server](https://github.com/quii/learn-go-with-tests)
 10. [HTTP2 guide](https://kinsta.com/learn/what-is-http2/)
+11. [GNU Micro httpd](https://www.gnu.org/software/libmicrohttpd/)
+
