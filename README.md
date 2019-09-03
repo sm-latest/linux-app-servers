@@ -37,4 +37,5 @@ Testing linux application performance
 9. [Learn Go with tests - http server](https://github.com/quii/learn-go-with-tests)
 10. [HTTP2 guide](https://kinsta.com/learn/what-is-http2/)
 11. [GNU Micro httpd](https://www.gnu.org/software/libmicrohttpd/)
+12. [Caddy Web Server](https://github.com/caddyserver/caddy)
 
