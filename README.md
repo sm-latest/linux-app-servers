@@ -35,3 +35,4 @@ Testing linux application performance
 7. [HTTP made easy](https://www.jmarshall.com/easy/http/)
 8. [Learning Rust, implementing a web server](http://julien.gunnm.org/rust/2017/11/18/learning-rust-in-practice-webserver-in-rust/)
 9. [Learn Go with tests - http server](https://github.com/quii/learn-go-with-tests)
+10. [HTTP2 guide](https://kinsta.com/learn/what-is-http2/)
