@@ -32,3 +32,6 @@ Testing linux application performance
 4. [The Linux Programming Interface](https://github.com/storypku/tlpi)
 5. [Guide to linkers](http://www.lurklurk.org/linkers/linkers.html)
 6. [Http Toolkit](https://httptoolkit.tech/)
+7. [HTTP made easy](https://www.jmarshall.com/easy/http/)
+8. [Learning Rust, implementing a web server](http://julien.gunnm.org/rust/2017/11/18/learning-rust-in-practice-webserver-in-rust/)
+9. [Learn Go with tests - http server](https://github.com/quii/learn-go-with-tests)
