@@ -21,6 +21,8 @@ void handle_http_method (char *m_buffer, int client_socket_id) {
         //handle_post_method();
     } else if (strcmp(method, "post") == 0) {
         //handle_post
+    } else {
+        //handle method_not_implemented
     }
 }
 
@@ -58,6 +60,19 @@ void handle_get(char *urlpath, int socket_id) {
         }
     }
 }
+
+int handle_app_routes(char *path, int socket_id) {
+    return METHOD_NOT_HANDLED;
+}
+
+/**
+ * Calls app routes and then handles post
+ *
+ */
+void handle_post_method(char *path, int socket_id) {
+    handle_app_post_routes(path,socket_id);
+}
+
 
 int main(int argc, char *argv[]) {
     info("Running SmHTTPd server...");

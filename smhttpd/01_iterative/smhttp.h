@@ -13,6 +13,7 @@
 
 #define DEFAULT_PAGE "index.html"
 #define METHOD_HANDLED  0
+#define METHOD_NOT_HANDLED 1
 
 
 /*
