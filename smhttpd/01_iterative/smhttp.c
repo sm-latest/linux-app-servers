@@ -1,14 +1,22 @@
 #include<stdio.h>
 #include<string.h>
 #include<sys/stat.h>
+#include<sys/socket.h>
 #include "smhttp.h"
 #include "smlog.h"
 
-
-
 //#define METHOD_HANDLED  0
+void handle_http_404(int socket_id) {
+    send(socket_id, error_404_message, strlen(error_404_message), 0);
+}
 
+void handle_unimplemented_method(int socket_id) {
+    send(socket_id, unimplemented_content, strlen(unimplemented_content), 0);
+}
 
+/**
+ * Routes all http requests to relevant handlers for get, post, error or unimplemented.
+ */
 void handle_http_method (char *m_buffer, int client_socket_id) {
 
     char *method, *path;
