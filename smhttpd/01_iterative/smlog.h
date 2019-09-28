@@ -63,5 +63,4 @@
         result;\
 })
 
-
 #endif //SMLOGGER

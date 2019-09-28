@@ -16,6 +16,34 @@
 #define METHOD_NOT_HANDLED 1
 
 
+const char *error_404_message = \
+        "HTTP/1.0 404 Not Found\r\n"
+        "Content-type: text/html\r\n"
+        "\r\n"
+        "<html>"
+        "<head>"
+        "<title>ZeroHTTPd: Not Found</title>"
+        "</head>"
+        "<body>"
+        "<h1>Not Found (404)</h1>"
+        "<p>Your client is asking for an object that was not found on this server.</p>"
+        "</body>"
+        "</html>";
+
+const char *unimplemented_content = \
+        "HTTP/1.0 400 Bad Request\r\n"
+        "Content-type: text/html\r\n"
+        "\r\n"
+        "<html>"
+        "<head>"
+        "<title>ZeroHTTPd: Unimplemented</title>"
+        "</head>"
+        "<body>"
+        "<h1>Bad Request (Unimplemented)</h1>"
+        "<p>Your client sent a request ZeroHTTPd did not understand and it is probably not your fault.</p>"
+        "</body>"
+        "</html>";
+
 /*
  * This is the routing function for POST calls. If newer POST methods need to be handled,
  * you start by extending this function to check for your call slug and calling the
